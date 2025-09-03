@@ -1,5 +1,5 @@
 from pydantic import BaseModel,Field
-from typing import Annotated,Literal
+from typing import Literal
 from enum import Enum
 """
 <class 'pandas.core.frame.DataFrame'>
@@ -27,7 +27,7 @@ class WheezingEnum(float, Enum):
     NO = 1.0
     YES = 2.0
 
-class LungCancerInput(BaseModel):
+class Patient(BaseModel):
     GENDER: Literal[0, 1]
     AGE: float
     SMOKING: Literal[1, 2]
