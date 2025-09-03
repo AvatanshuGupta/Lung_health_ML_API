@@ -1,0 +1,38 @@
+[ 2025-09-04 01:15:02,182 ] 26 root - INFO - trained model path done
+[ 2025-09-04 01:15:02,182 ] 8 root - INFO - data ingestion obj created
+[ 2025-09-04 01:15:02,192 ] 17 root - INFO - data loaded in training pipeline
+[ 2025-09-04 01:15:02,192 ] 24 root - INFO - data labelling done
+[ 2025-09-04 01:15:02,192 ] 37 root - INFO - entered model training method block
+[ 2025-09-04 01:15:05,415 ] 134 root - INFO - model fitted MultinomialNB
+[ 2025-09-04 01:15:05,415 ] 146 root - INFO - Best parameters for MultinomialNB: {'alpha': 0.01, 'fit_prior': True}
+[ 2025-09-04 01:15:05,415 ] 147 root - INFO - Test accuracy: 0.9194
+[ 2025-09-04 01:15:05,646 ] 134 root - INFO - model fitted LogisticRegression
+[ 2025-09-04 01:15:05,646 ] 146 root - INFO - Best parameters for LogisticRegression: {'C': 10, 'solver': 'liblinear'}
+[ 2025-09-04 01:15:05,646 ] 147 root - INFO - Test accuracy: 0.9194
+[ 2025-09-04 01:15:07,517 ] 134 root - INFO - model fitted RandomForest
+[ 2025-09-04 01:15:07,527 ] 146 root - INFO - Best parameters for RandomForest: {'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 100}
+[ 2025-09-04 01:15:07,527 ] 147 root - INFO - Test accuracy: 0.9355
+[ 2025-09-04 01:15:07,700 ] 134 root - INFO - model fitted SVM
+[ 2025-09-04 01:15:07,707 ] 146 root - INFO - Best parameters for SVM: {'svc__C': 0.1, 'svc__kernel': 'linear'}
+[ 2025-09-04 01:15:07,707 ] 147 root - INFO - Test accuracy: 0.9032
+[ 2025-09-04 01:15:07,814 ] 134 root - INFO - model fitted KNN
+[ 2025-09-04 01:15:07,821 ] 146 root - INFO - Best parameters for KNN: {'knn__n_neighbors': 9, 'knn__weights': 'uniform'}
+[ 2025-09-04 01:15:07,821 ] 147 root - INFO - Test accuracy: 0.8871
+[ 2025-09-04 01:15:07,900 ] 134 root - INFO - model fitted DecisionTree
+[ 2025-09-04 01:15:07,900 ] 146 root - INFO - Best parameters for DecisionTree: {'max_depth': 10, 'min_samples_split': 10}
+[ 2025-09-04 01:15:07,900 ] 147 root - INFO - Test accuracy: 0.9032
+[ 2025-09-04 01:15:09,315 ] 134 root - INFO - model fitted GradientBoosting
+[ 2025-09-04 01:15:09,315 ] 146 root - INFO - Best parameters for GradientBoosting: {'learning_rate': 0.01, 'max_depth': 5, 'n_estimators': 100}
+[ 2025-09-04 01:15:09,315 ] 147 root - INFO - Test accuracy: 0.9032
+[ 2025-09-04 01:15:10,215 ] 134 root - INFO - model fitted AdaBoost
+[ 2025-09-04 01:15:10,220 ] 146 root - INFO - Best parameters for AdaBoost: {'learning_rate': 1.0, 'n_estimators': 100}
+[ 2025-09-04 01:15:10,220 ] 147 root - INFO - Test accuracy: 0.9032
+[ 2025-09-04 01:15:10,296 ] 134 root - INFO - model fitted SGDClassifier
+[ 2025-09-04 01:15:10,297 ] 146 root - INFO - Best parameters for SGDClassifier: {'alpha': 0.01, 'loss': 'log_loss'}
+[ 2025-09-04 01:15:10,297 ] 147 root - INFO - Test accuracy: 0.9194
+[ 2025-09-04 01:15:14,853 ] 134 root - INFO - model fitted MLPClassifier
+[ 2025-09-04 01:15:14,853 ] 146 root - INFO - Best parameters for MLPClassifier: {'mlp__activation': 'tanh', 'mlp__alpha': 0.0001, 'mlp__hidden_layer_sizes': (50,)}
+[ 2025-09-04 01:15:14,853 ] 147 root - INFO - Test accuracy: 0.9355
+[ 2025-09-04 01:15:14,860 ] 169 root - INFO - Best model 'RandomForest' saved with test accuracy: 0.9355
+[ 2025-09-04 01:15:14,865 ] 189 root - INFO - Saved best model info to artifacts\best_model_info.csv
+[ 2025-09-04 01:15:14,866 ] 30 root - INFO - model training done

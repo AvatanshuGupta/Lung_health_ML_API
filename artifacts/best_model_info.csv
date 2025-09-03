@@ -1,0 +1,2 @@
+model_name,test_accuracy,cv_accuracy,best_params
+RandomForest,0.9354838709677419,0.8947755102040817,"{'max_depth': 5, 'min_samples_split': 5, 'n_estimators': 100}"
